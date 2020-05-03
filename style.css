@@ -1,0 +1,40 @@
+/* Global */
+
+*, *::before, *::after {
+        box-sizing: border-box;
+}
+
+body { margin: 0; };
+
+.body {
+  font-family: 'Signika Negative', sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.page-title {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+.page-subtitle {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+/* Poem */
+
+.text {
+  text-align: left;
+  font-size: 12px;
+  font-family: 'Signika Negative', sans-serif;
+  line-height: 1;
+  font-weight: 200;
+}
